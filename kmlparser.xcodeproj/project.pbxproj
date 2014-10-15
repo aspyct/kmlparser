@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71900E3019EF1C42008E35BA /* kmlparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 71900E2F19EF1C42008E35BA /* kmlparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71900E3A19EF1C42008E35BA /* kmlparserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71900E3919EF1C42008E35BA /* kmlparserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71900E2A19EF1C42008E35BA /* kmlparser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kmlparser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71900E2E19EF1C42008E35BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71900E2F19EF1C42008E35BA /* kmlparser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kmlparser.h; sourceTree = "<group>"; };
+		71900E3519EF1C42008E35BA /* kmlparserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kmlparserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71900E3819EF1C42008E35BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71900E3919EF1C42008E35BA /* kmlparserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kmlparserTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71900E2619EF1C42008E35BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71900E3219EF1C42008E35BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71900E2019EF1C42008E35BA = {
+			isa = PBXGroup;
+			children = (
+				71900E2C19EF1C42008E35BA /* kmlparser */,
+				71900E3619EF1C42008E35BA /* kmlparserTests */,
+				71900E2B19EF1C42008E35BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71900E2B19EF1C42008E35BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71900E2A19EF1C42008E35BA /* kmlparser.framework */,
+				71900E3519EF1C42008E35BA /* kmlparserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71900E2C19EF1C42008E35BA /* kmlparser */ = {
+			isa = PBXGroup;
+			children = (
+				71900E2F19EF1C42008E35BA /* kmlparser.h */,
+				71900E2D19EF1C42008E35BA /* Supporting Files */,
+			);
+			path = kmlparser;
+			sourceTree = "<group>";
+		};
+		71900E2D19EF1C42008E35BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71900E2E19EF1C42008E35BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71900E3619EF1C42008E35BA /* kmlparserTests */ = {
+			isa = PBXGroup;
+			children = (
+				71900E3919EF1C42008E35BA /* kmlparserTests.swift */,
+				71900E3719EF1C42008E35BA /* Supporting Files */,
+			);
+			path = kmlparserTests;
+			sourceTree = "<group>";
+		};
+		71900E3719EF1C42008E35BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71900E3819EF1C42008E35BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71900E2719EF1C42008E35BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71900E3019EF1C42008E35BA /* kmlparser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71900E2919EF1C42008E35BA /* kmlparser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71900E3D19EF1C42008E35BA /* Build configuration list for PBXNativeTarget "kmlparser" */;
+			buildPhases = (
+				71900E2519EF1C42008E35BA /* Sources */,
+				71900E2619EF1C42008E35BA /* Frameworks */,
+				71900E2719EF1C42008E35BA /* Headers */,
+				71900E2819EF1C42008E35BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kmlparser;
+			productName = kmlparser;
+			productReference = 71900E2A19EF1C42008E35BA /* kmlparser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71900E3419EF1C42008E35BA /* kmlparserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71900E4019EF1C42008E35BA /* Build configuration list for PBXNativeTarget "kmlparserTests" */;
+			buildPhases = (
+				71900E3119EF1C42008E35BA /* Sources */,
+				71900E3219EF1C42008E35BA /* Frameworks */,
+				71900E3319EF1C42008E35BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kmlparserTests;
+			productName = kmlparserTests;
+			productReference = 71900E3519EF1C42008E35BA /* kmlparserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71900E2119EF1C42008E35BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Aspyct.org;
+				TargetAttributes = {
+					71900E2919EF1C42008E35BA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					71900E3419EF1C42008E35BA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 71900E2419EF1C42008E35BA /* Build configuration list for PBXProject "kmlparser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71900E2019EF1C42008E35BA;
+			productRefGroup = 71900E2B19EF1C42008E35BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71900E2919EF1C42008E35BA /* kmlparser */,
+				71900E3419EF1C42008E35BA /* kmlparserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71900E2819EF1C42008E35BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71900E3319EF1C42008E35BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71900E2519EF1C42008E35BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71900E3119EF1C42008E35BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71900E3A19EF1C42008E35BA /* kmlparserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71900E3B19EF1C42008E35BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71900E3C19EF1C42008E35BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71900E3E19EF1C42008E35BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = kmlparser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		71900E3F19EF1C42008E35BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = kmlparser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		71900E4119EF1C42008E35BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = kmlparserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71900E4219EF1C42008E35BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = kmlparserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71900E2419EF1C42008E35BA /* Build configuration list for PBXProject "kmlparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71900E3B19EF1C42008E35BA /* Debug */,
+				71900E3C19EF1C42008E35BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71900E3D19EF1C42008E35BA /* Build configuration list for PBXNativeTarget "kmlparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71900E3E19EF1C42008E35BA /* Debug */,
+				71900E3F19EF1C42008E35BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71900E4019EF1C42008E35BA /* Build configuration list for PBXNativeTarget "kmlparserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71900E4119EF1C42008E35BA /* Debug */,
+				71900E4219EF1C42008E35BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71900E2119EF1C42008E35BA /* Project object */;
+}
