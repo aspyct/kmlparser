@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		71900E3019EF1C42008E35BA /* kmlparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 71900E2F19EF1C42008E35BA /* kmlparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71900E3A19EF1C42008E35BA /* kmlparserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71900E3919EF1C42008E35BA /* kmlparserTests.swift */; };
+		71900E4819EF1C64008E35BA /* KmlDocumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71900E4319EF1C64008E35BA /* KmlDocumentParser.swift */; };
+		71900E4919EF1C64008E35BA /* KmlPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71900E4419EF1C64008E35BA /* KmlPlacemark.swift */; };
+		71900E4A19EF1C64008E35BA /* KmlPlacemarkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71900E4519EF1C64008E35BA /* KmlPlacemarkParser.swift */; };
+		71900E4B19EF1C64008E35BA /* KmlPointParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71900E4619EF1C64008E35BA /* KmlPointParser.swift */; };
+		71900E4C19EF1C64008E35BA /* KmlTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71900E4719EF1C64008E35BA /* KmlTextParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +23,11 @@
 		71900E3519EF1C42008E35BA /* kmlparserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kmlparserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71900E3819EF1C42008E35BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71900E3919EF1C42008E35BA /* kmlparserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kmlparserTests.swift; sourceTree = "<group>"; };
+		71900E4319EF1C64008E35BA /* KmlDocumentParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlDocumentParser.swift; sourceTree = "<group>"; };
+		71900E4419EF1C64008E35BA /* KmlPlacemark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlPlacemark.swift; sourceTree = "<group>"; };
+		71900E4519EF1C64008E35BA /* KmlPlacemarkParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlPlacemarkParser.swift; sourceTree = "<group>"; };
+		71900E4619EF1C64008E35BA /* KmlPointParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlPointParser.swift; sourceTree = "<group>"; };
+		71900E4719EF1C64008E35BA /* KmlTextParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlTextParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 			isa = PBXGroup;
 			children = (
 				71900E2F19EF1C42008E35BA /* kmlparser.h */,
+				71900E4319EF1C64008E35BA /* KmlDocumentParser.swift */,
+				71900E4419EF1C64008E35BA /* KmlPlacemark.swift */,
+				71900E4519EF1C64008E35BA /* KmlPlacemarkParser.swift */,
+				71900E4619EF1C64008E35BA /* KmlPointParser.swift */,
+				71900E4719EF1C64008E35BA /* KmlTextParser.swift */,
 				71900E2D19EF1C42008E35BA /* Supporting Files */,
 			);
 			path = kmlparser;
@@ -196,6 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71900E4819EF1C64008E35BA /* KmlDocumentParser.swift in Sources */,
+				71900E4919EF1C64008E35BA /* KmlPlacemark.swift in Sources */,
+				71900E4B19EF1C64008E35BA /* KmlPointParser.swift in Sources */,
+				71900E4A19EF1C64008E35BA /* KmlPlacemarkParser.swift in Sources */,
+				71900E4C19EF1C64008E35BA /* KmlTextParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +318,7 @@
 		71900E3E19EF1C42008E35BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -307,12 +328,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		71900E3F19EF1C42008E35BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
